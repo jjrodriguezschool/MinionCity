@@ -1,0 +1,273 @@
+@font-face {
+	font-family: 'OpenSans';
+	src: url(fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+.people-images{
+	width: 100%;
+	height: 40vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.people-images div{
+	width: 18%;
+	padding: 20px 0;
+	height: auto;
+}
+
+.people-images img{
+	object-fit: cover;
+	width: 100%;
+	height: 40vh;
+}
+
+body{
+	font-family: 'OpenSans';
+	background-color: rgb(30, 30, 30);
+	margin: 0;
+	min-height: 100vh;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+.logo img{
+	width: 100%;
+	float: left;
+}
+
+.logo a{
+	width: 10%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: 0.3s;
+  color: black;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover, .topnav .active{
+  color: rgb(33, 93, 204);
+}
+
+/* Add a color to the active/current link */
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+  margin: 0;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto;
+	color: white;
+	align-items: center;
+	justify-items: center;
+	max-width: 100%;
+}
+
+.container iframe{
+	justify-content: center;
+	max-width: 100%;
+	margin: 50px 80px;
+}
+
+.wrapper{
+	justify-content: center;
+	display: flex;
+	color: white;
+	min-height: 80vh;
+	width: 100%;
+}
+
+
+footer{
+	background-color: rgb(255, 255, 255);
+}
+
+.logo-bottom{
+	display: flex;
+	justify-content: center;
+}
+
+footer img{
+	width: 40%;
+}
+
+footer ul{
+	display: flex;
+	justify-content: right;
+}
+
+footer li{
+	list-style-type: none;
+	padding: 5px;
+}
+
+footer li a i{
+	color: black;
+	font-size: 30px;
+}
+
+.footer-row{
+	display: flex;
+	text-align: center;
+	align-items: center;
+}
+
+.icons{
+	margin-left: auto;
+}
+
+iframe{
+	border: 8px solid white;
+	box-shadow: 0 0 10px 5px #48abe0
+}
+
+.contact {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+.forum, .booking, .socials{
+	border: 2px solid white;
+	width: 33.3333%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 20px;
+	box-shadow: 0 0 10px 5px #48abe0;
+}
+
+.socials i{
+	margin: 0 10px;
+}
+
+.contact a {
+	text-decoration: none;
+	font-weight: bold;
+	color: rgb(71, 227, 255);
+	transition: 0.5s;
+}
+
+.booking a{
+	text-decoration: underline;
+}
+
+form{
+	width: 100%;
+}
+
+
+
+.names{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.email-container, .message-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.email, .message{
+	width: 100%;
+	margin: 8px;
+}
+
+.name{
+	width: 50%;
+	margin: 8px;
+}
+
+.send{
+	margin: 8px;
+}
+
+input{
+	border-radius: 8px;
+	padding: 4px;
+	border: 2px solid white;
+	background-color: rgb(30, 30, 30);
+	color: white;
+}
+
+.send{
+	border-radius: 8px;
+	padding: 4px;
+	border: 2px solid white;
+	background-color: rgb(30, 30, 30);
+	color: white;
+	transition: 0.3s;
+}
+
+.send:hover{
+	background-color: rgb(61, 195, 219);
+}
+
+textarea{
+	height: 150px;
+	border-radius: 8px;
+	padding: 4px;
+	border: 2px solid white;
+	background-color: rgb(30, 30, 30);
+	color: white;
+	font-family: inherit
+}
+
+.contact a:hover{
+	text-shadow:    
+    0 0 16px rgb(255, 255, 255);
+
+}
+
+.event, .song {
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+	display: flex;
+}
+
+.event img, .song img{
+	width: 50%;
+	padding: 20px;
+}
+
+.event-details, .song-details{
+	width: 50%;
+	padding: 20px;
+}
+
+.event-details h2, .song-details h2{
+	padding-bottom: 20px;
+}
+
+.event-details a{
+	color:rgb(61, 195, 219);
+}
+
+.songs{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
